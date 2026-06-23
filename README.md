@@ -1,8 +1,12 @@
 # Plant Leaf Health Classification (Healthy vs. Diseased)
 
-A Convolutional Neural Network (CNN) that classifies plant leaf images as **healthy** or **diseased**, built during an AI summer training program at **Weqa'a Center** (National Center for the Control of Plant Pests and Diseases), Ministry of Environment, Water and Agriculture, Saudi Arabia.
+A Convolutional Neural Network (CNN) that classifies plant leaf images as **healthy** or **diseased**. This project was built as part of a 200-hour AI summer training program at Ministry of Environment, Water and Agriculture, applying machine learning to real agricultural challenges.
 
-> ⚠️ **Note on this notebook:** The original `.ipynb` file was not available — this notebook (`leaf_classification.ipynb`) was reconstructed from an exported PDF printout of the original Colab session. All code, parameters, training logs, and prediction outputs are transcribed exactly as they appeared in the original run; nothing has been re-run or altered.
+## The problem
+
+Field inspectors need a fast way to assess plant health without waiting for a lab diagnosis. Manually identifying disease symptoms from leaf appearance is time-consuming and depends on the inspector's experience, which can lead to delayed or inconsistent detection — allowing diseases to spread further before treatment begins. This model addresses that gap by giving an instant, automated healthy/diseased prediction from a single leaf photo, supporting faster decision-making in the field.
+
+
 
 ## What it does
 
@@ -64,11 +68,7 @@ pip install -r requirements.txt
 
 To retrain: place your leaf dataset in a `Data/` folder with two subfolders, `healthy/` and `diseased/`, then run the notebook in Jupyter or Google Colab.
 
-## The problem
 
-Field inspectors need a fast way to assess plant health without waiting for a lab diagnosis. Manually identifying disease symptoms from leaf appearance is time-consuming and depends on the inspector's experience, which can lead to delayed or inconsistent detection — allowing diseases to spread further before treatment begins. This model addresses that gap by giving an instant, automated healthy/diseased prediction from a single leaf photo, supporting faster decision-making in the field.
-
-This project was built as part of a 200-hour AI summer training program at Weqa'a Center, applying machine learning to real agricultural challenges.
 
 ## What I'd improve next
 
